@@ -34,7 +34,7 @@ implementation
 procedure TForm1.SpeedButton1Click(Sender: TObject);
 var url: string;
 begin
-  url:='https://rutracker.org/forum/index.php';
+  url:='http://thepiratebay.cr';//https://github.com/Strikebizz/git-delphi
   Memo1.text:=IdHTTP1.get(url);
 end;
 
